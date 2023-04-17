@@ -132,7 +132,7 @@ footer{
 /* mobile */
 @media (max-width:600px){
     body{
-        background-image: url(content/user-icon.png);
+        background-color: grey;
     }
 
 
