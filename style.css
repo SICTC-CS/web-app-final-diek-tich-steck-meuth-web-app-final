@@ -90,7 +90,7 @@ div.create a:visited{
 
 
 body{
-    background-image: url(content/gradient.png);
+    background-image: url(content/blob.png);
     background-size: cover;
     text-align: center;
     font-family: Impact, sans-serif;
@@ -116,6 +116,16 @@ header{
     height:3.5em;
 } 
 
+table{
+    background-color: white;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+th,td{
+    border: 1px solid black;
+}
+
 .headerRight{
     padding-left: 70em;
 }
@@ -123,6 +133,7 @@ header{
 footer{
     padding-top: 3em;
     padding-bottom: 1em;
+    color: white;
 }
 
 
@@ -136,4 +147,21 @@ footer{
     }
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.error{
+    color: white;
+    font-size: xx-large;
 }
