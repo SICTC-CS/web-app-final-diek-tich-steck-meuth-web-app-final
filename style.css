@@ -1,3 +1,5 @@
+/* LINK TO YOUTUBE FOR LOGIN AESTHETICS: https://www.youtube.com/watch?v=qROcffueh5M */
+
 .login-card{
     position: relative;
     z-index: 3;
@@ -84,6 +86,38 @@ div.create a:visited{
     color: black;
 }
 
+.card-logo{
+    padding-bottom: 2em;
+}
+
+.checkout-item-info{
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 15px;
+}
+
+.login-form-for-checkout > button{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 1.25rem;
+    background: #00b6c9;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.375s;
+    padding-right: 6em;
+}
+
+.login-form-for-checkout > button:hover {
+    background: #00b6c9;
+}
+
+
+
+
+
 
 
 
@@ -92,13 +126,14 @@ div.create a:visited{
 body{
     background-image: url(content/blob.png);
     background-size: cover;
+    background-repeat: no-repeat;
     text-align: center;
     font-family: Impact, sans-serif;
     display: grid;
     place-items: center;
     margin: 0;
     padding: 0 24px;
-    color: black;
+    color: white;
     padding-top: 7em;
 }
 
@@ -143,25 +178,23 @@ footer{
 /* mobile */
 @media (max-width:600px){
     body{
-        background-color: grey;
-    }
+        background-image: url("content/blob.png");
+        background-size: 500%;
+        background-repeat: no-repeat;
+        text-align: center;
+        font-family: Impact, sans-serif;
+        display: grid;
+        place-items: center;
+        margin: 0;
+        padding: 0 24px;
+        color: white;
+        padding-top: 7em;
+    }   
 
 
 }
 
 
 
+/* blue color - #070135 */
 
-
-
-
-
-
-
-
-
-
-.error{
-    color: white;
-    font-size: xx-large;
-}
