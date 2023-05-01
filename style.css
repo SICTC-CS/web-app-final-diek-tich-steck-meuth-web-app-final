@@ -1,5 +1,6 @@
 /* LINK TO YOUTUBE FOR LOGIN AESTHETICS: https://www.youtube.com/watch?v=qROcffueh5M */
 
+/* card styling */
 .login-card{
     position: relative;
     z-index: 3;
@@ -87,7 +88,10 @@ div.create a:visited{
 }
 
 .card-logo{
-    padding-bottom: 2em;
+    padding-bottom: 23em;
+    background-image: url("content/vendinglogo.png");
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
 .checkout-item-info{
@@ -116,13 +120,173 @@ div.create a:visited{
 
 
 
+/* inventory page style */
+.body-inventory {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body-inventory .title-bar {
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-inventory .title-bar .title-string {
+    font-size: 50px;
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+}
+.body-inventory .form-log {
+    margin-top: 50px;
+    background-color: white;
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body-inventory .form-log .header {
+    font-size: 27px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form-log .idErr {
+    background-color: red;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-inventory .form-log .idErr .idErr-msg {
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form-log .input .idNum .idNum-header {
+    font-size: 17px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form-log .input .idNum .idNum-input {
+    width: 250px;
+    height: 30px;
+}
+.body-inventory .form-log .acc-info .acc-info-btn {
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+    background-color: green;
+    border-radius: 1.25rem;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .info {
+    margin-top: 15px;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    border-color: white;
+    border-radius: 1.25rem;
+    border-width: 1px;
+}
+.body-inventory .info .info-msg {
+    width: 300px;
+}
+.body-inventory .info .info-msg .info-msg-text {
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 20px;
+}
+.body-inventory .info .info-btns-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.body-inventory .info .info-btns-container .info-btn {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 1.25rem;
+    background: #070135;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-inventory .form {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 1.25rem;
+    background-color: white;
+    width: 550px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body-inventory .form .header-inventory {
+    color: black;
+    font-size: 27px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form .idErr {
+    position: relative;
+    border-radius: 1.25rem;
+    background-color: yellow;
+    width: 270px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body-inventory .form .idErr .idErr-msg {
+    color: black;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form .input .input-field .header {
+    color: black;
+    font-size: 17px;
+    font-family: 'Gill Sans', sans-serif;
+}
+.body-inventory .form .input .input-field .input {
+    width: 250px;
+    height: 25px;
+}
+.body-inventory .form .update-acc .update-acc-btn {
+    cursor: pointer;
+    width: 100px;
+    border-radius: 1.25rem;
+    background: #00b6c9;
+    color: white;
+    border: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
 
-
-
-
+/* main style */ 
 body{
     background-image: url(content/blob.png);
     background-size: cover;
@@ -171,6 +335,10 @@ footer{
     color: white;
 }
 
+.boring{
+    background-image: none;
+    background-color: #00b6c9;
+}
 
 
 
@@ -191,10 +359,49 @@ footer{
         padding-top: 7em;
     }   
 
+    .card-logo{
+        padding-bottom: 1em;
+        background-image: url("content/white.png");
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+
+    .headerRight{
+        padding: 0em;
+    }
+
+    .body-inventory .info {
+        width: 320px;
+        height: 200px;
+        border-color: white;
+        border-width: 1px;
+   }
+    .body-inventory .info .info-msg {
+        width: 200px;
+   }
+    .body-inventory .form {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        border-radius: 1.25rem;
+        background-color: white;
+        width: 320px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+   }
+    
+    header{
+        width:auto;
+    } 
 
 }
 
 
 
+
+
 /* blue color - #070135 */
+/* light blue color - #00b6c9 */
 
