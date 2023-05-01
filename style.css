@@ -352,7 +352,7 @@ footer{
     body{
         background-image: url("content/blob.png");
         background-size: 500%;
-        background-repeat: no-repeat;
+        background-position: center;
         text-align: center;
         font-family: Impact, sans-serif;
         display: grid;
