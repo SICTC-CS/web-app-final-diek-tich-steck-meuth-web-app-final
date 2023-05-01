@@ -225,6 +225,7 @@ div.create a:visited{
     transition: all 0.375s;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
 }
 .body-inventory .form {
     margin-top: 50px;
@@ -335,12 +336,15 @@ footer{
     color: white;
 }
 
-.boring{
+.boring-blue-bg{
     background-image: none;
     background-color: #00b6c9;
 }
 
-
+.boring-darkblue-bg{
+    background-image: none;
+    background-color: #070135;
+}
 
 
 /* mobile */

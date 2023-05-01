@@ -14,7 +14,7 @@
         </div>
     </header>
 
-    <body class="boring">
+    <body class="boring-blue-bg">
         <div class="body-inventory">
             <div *ngIf="!updateInfo">
                 <li class="info" *ngFor="let accounts of accounts">
@@ -26,7 +26,8 @@
                     </div>
                     <div class="info-btns-container">
                         <button class="info-btn" (click)="deleteBtn(account.Id)">Delete Item</button>
-                        <button class="info-btn" (click)="deleteBtn(account.Id)">Update Info</button>
+                        <button class="info-btn" (click)="updateBtn(account.Id)">Update Info</button>
+                        <a href="details-admin.html" button class="info-btn" (click)="detailsBtn(account.Id)">Item Details</button></a>
                     </div>
                 </li>
             </div>
@@ -44,6 +45,7 @@
                         <div class="info-btns-container">
                             <button class="info-btn" (click)="deleteBtn(account.Id)">Delete Item</button>
                             <button class="info-btn" (click)="deleteBtn(account.Id)">Update Info</button>
+                            <a href="details-admin.html" button class="info-btn" (click)="detailsBtn(account.Id)">Item Details</button></a>
                         </div>
                     </li>
                 </div>
