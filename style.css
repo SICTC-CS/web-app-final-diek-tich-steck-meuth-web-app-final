@@ -351,8 +351,8 @@ footer{
 @media (max-width:600px){
     body{
         background-image: url("content/blob.png");
-        background-size: 500%;
-        background-position: center;
+        background-image: none;
+        background-color: #00b6c9;
         text-align: center;
         font-family: Impact, sans-serif;
         display: grid;
