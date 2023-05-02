@@ -303,8 +303,8 @@ body{
 }
 
 header{
-    color: white;
-    background-color: black;
+    color: #070135;
+    background-color: #cb6ce6;
     position:absolute;
     top:0;
     bottom:auto;
@@ -402,6 +402,38 @@ footer{
 
 }
 
+
+/* detail page two layout style */
+.detail-left{
+    float: left;
+    width: 50%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-right: 40em;
+}
+
+.detail-right{
+    float: right;
+    width: 50%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    margin-left: 40em;
+}
+
+.detail-card{
+        font-size: x-large;
+        margin-left: 4em;
+        margin-right: 4em;
+        color:#70C1B3;
+        display: inline-block;
+        background-color: white;
+        background-size: cover;
+        border-radius: 1.25rem;
+        padding: 3em 3rem;
+        vertical-align: middle;
+        height: 500px;
+        width: 500px;
+}
 
 
 
