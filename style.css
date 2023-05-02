@@ -348,7 +348,7 @@ footer{
 
 
 /* mobile */
-@media (max-width:700px){
+@media (max-width:600px){
     body{
         background-image: url("content/blob.png");
         background-image: none;
