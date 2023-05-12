@@ -20,10 +20,16 @@
             <div *ngIf="!updateInfo">
                 <li class="info" *ngFor="let accounts of accounts">
                     <div class="info-msg">
-                        <div class="info-msg-text">Item Name: {{account.ItemName}}</div>
-                        <div class="info-msg-text">Id: {{account.Id}}</div>
-                        <div class="info-msg-text">About: {{account.About}}</div>
-                        <div class="info-msg-text">Remaining: {{account.Remaining}}</div>
+                        <div class="info-msg-text">Item Name: HDMI Cable</div>
+                        <div class="info-msg-text">Id: 1:17</div>
+                        <div class="info-msg-text">About: HDMI Cables are cables used for simultaneously transmitting digital video and audio from a source, such as a computer or TV cable box, to a computer monitor, TV or projector.</div>
+                        <div class="info-msg-text">Remaining: 7</div>
+                    </div>
+                    <div class="info-msg">
+                        <div class="info-msg-text">Item Name: Zip Ties</div>
+                        <div class="info-msg-text">Id: 1:20</div>
+                        <div class="info-msg-text">About: Bundle your cables and wires together to keep them organized and prevent damage.</div>
+                        <div class="info-msg-text">Remaining: 53</div>
                     </div>
                     <div class="info-btns-container">
                         <button class="info-btn" (click)="deleteBtn(account.Id)">Delete Item</button>
